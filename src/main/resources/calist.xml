@@ -1,0 +1,16 @@
+<cainfo-list>
+
+	<!-- 
+	Example:
+	<cainfo>
+		<name>your AC name</name>
+		<healthCheckUrl>http://<host>:<port>/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo> 
+	-->
+
+	<cainfo>
+		<name></name>
+		<healthCheckUrl></healthCheckUrl>
+	</cainfo>
+
+</cainfo-list>
