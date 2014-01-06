@@ -8,6 +8,9 @@ import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,7 +34,7 @@ public class EjbcaHealthCheckServiceImpl implements EjbcaHealthCheckService {
                 caStatus.setAllOk(true);
                 caStatus.setMessage(responseBody);
             }
-        } catch (IOException e) {
+        } catch (Exception e) {
             logger.warn("Nao foi possivel verificar o status da AC " + caInfo.getName(), e);
             caStatus.setAllOk(false);
             caStatus.setMessage(e.getMessage());
@@ -41,8 +44,9 @@ public class EjbcaHealthCheckServiceImpl implements EjbcaHealthCheckService {
     }
     
     private String connectToHealthCheck(String caName, String ejbcaUrl) throws ClientProtocolException, IOException {
-        //TODO definir timeout
-        HttpClient httpclient = new DefaultHttpClient();
+        HttpParams httpParams = new BasicHttpParams();
+        HttpConnectionParams.setConnectionTimeout(httpParams, 1000);
+        HttpClient httpclient = new DefaultHttpClient(httpParams);
         try {
             HttpGet httpget = new HttpGet(ejbcaUrl);
 
