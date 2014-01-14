@@ -5,10 +5,10 @@ Web application to monitor EJBCA PKI instances.
 # Building
 
 1. Java EE Container up and running.
-2. Insert the EJBCA URL´s that you want to monitor in src/main/resources/calist.xml.
-3. Run mvn clean package.
+2. Insert the EJBCA URL´s that you want to monitor in _src/main/resources/calist.xml_.
+3. Run the Maven command _mvn clean package_.
 4. Deploy the war file.
-5. Access http://<host>:<port>/ejbca-monitor/
+5. Access http://your_host:port/ejbca-monitor/
 
 # Contact
 
