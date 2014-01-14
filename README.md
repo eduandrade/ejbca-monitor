@@ -1,6 +1,6 @@
 # About
 
-Web application to monitor EJBCA instances.
+Web application to monitor EJBCA PKI instances.
 
 # Building
 
