@@ -1,13 +1,17 @@
+# About
+
 Web application to monitor EJBCA instances.
 
-Steps to setup your ejbca-monitor:
+# Building
 
-* Java EE Container up and running.
-* Insert the EJBCA URL´s that you want to monitor in _src/main/resources/calist.xml_.
-* Run mvn clean package.
-* Deploy the war file.
-* Access http://<host>:<port>/ejbca-monitor/
+1) Java EE Container up and running.
+2) Insert the EJBCA URL´s that you want to monitor in src/main/resources/calist.xml.
+3) Run mvn clean package.
+4) Deploy the war file.
+5) Access http://<host>:<port>/ejbca-monitor/
 
-Contact: edu.p.andrade@gmail.com
+# Contact
+
+e-mail: edu.p.andrade@gmail.com
 
 EJBCA web site: http://www.ejbca.org/
