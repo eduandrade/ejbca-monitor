@@ -7,10 +7,81 @@
 		<healthCheckUrl>http://<host>:<port>/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
 	</cainfo> 
 	-->
-
+	
+	<!-- DEV -->
 	<cainfo>
-		<name></name>
-		<healthCheckUrl></healthCheckUrl>
+		<name>serasaac_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:23080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasacd_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:22080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasarfb_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:49080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>prodestrfb_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:50080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasajus_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:41080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasams1_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:24080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasams2_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:28080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasams3_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:29080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+		<cainfo>
+		<name>serasams4_v2 (DEV)</name>
+		<healthCheckUrl>http://spobrdomc1-dev:20080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+
+	<!-- HOM -->
+	<cainfo>
+		<name>serasaac_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:23080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasacd_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:22080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasarfb_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:49080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>prodestrfb_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:50080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasajus_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:41080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasams1_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:24080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasams2_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:28080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+	<cainfo>
+		<name>serasams3_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:29080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+	</cainfo>
+		<cainfo>
+		<name>serasams4_v2 (HOM)</name>
+		<healthCheckUrl>http://10.96.170.194:20080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
 	</cainfo>
 
 </cainfo-list>
