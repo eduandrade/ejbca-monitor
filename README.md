@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eduandrade/ejbca-monitor.png?branch=master)](https://travis-ci.org/eduandrade/ejbca-monitor)
+
 # About
 
 Web application to monitor EJBCA PKI instances.
