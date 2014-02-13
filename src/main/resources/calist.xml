@@ -39,7 +39,7 @@
 	</cainfo>
 	<cainfo>
 		<name>serasams3_v2 (DEV)</name>
-		<healthCheckUrl>http://spobrdomc1-dev:29080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
+		<healthCheckUrl>http://spobrdomc1-dev:46080/ejbca/publicweb/healthcheck/ejbcahealth</healthCheckUrl>
 	</cainfo>
 		<cainfo>
 		<name>serasams4_v2 (DEV)</name>
